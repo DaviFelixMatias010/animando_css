@@ -26,7 +26,8 @@ body{
     width: 100%;
     justify-content: center;
 }
-.container a{
+.container button{
+    border: none;
     text-decoration: none;
     color: rgb(218, 221, 223);
     padding: 5px 10px;
@@ -73,7 +74,7 @@ body{
     box-shadow: 1px 1px 5px rgb(19, 19, 19);
     transition: all .2s ease-in-out;
 }
-a:hover{
+a,button:hover{
     transform: scale(1.1);
 }
 .container .cards .content{
