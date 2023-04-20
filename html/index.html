@@ -13,16 +13,23 @@
 <body>
     <div class="container">
         <div class="adicionar">
+            <form action="" class="form_add">
+                <label for="title">Titulo</label>
+                <input type="text" id="title">
+                <label for="content_form">Conteudo</label>
+                <input type="text" id="content_form">
+            </form>
             <button onclick="add_card()" id="adicionar"> ADICIONAR CARD</button>
         </div>
-        <div class="cards" id="card1">
+        <!--
+        <div class="cards">
             <div class="content">
                 <h2>Card 1</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisic</h3>
                 <a class="info" href="#">saiba mais</a>
             </div>
         </div>
-        <div class="cards">
+            <div class="cards">
             <div class="content">
                 <h2>Card 2</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
@@ -43,6 +50,7 @@
                 <a class="info" href="#">saiba mais</a>
             </div>
         </div>
+        -->
     </div>
     <script src="/js/script.js"></script>
 </body>
