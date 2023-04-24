@@ -9,6 +9,7 @@ function add_card(){
     const btn = document.createElement("a");
     const title = document.getElementById("title");
     const card_content = document.getElementById("content_form");
+    
     //add conteudo
     let content_title = title.value;
     let content_card = card_content.value;
